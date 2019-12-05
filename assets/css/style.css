@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background: url(../images/bg.png);
+}
+
+body{
+    margin: 0;
+}
+
+.toptext{
+    width:960px;
+    position:relative;
+    left:145px;
+    margin-top: 50px;;
+    padding:0px;
+    
+}
+
+#myName{
+    
+    background-color: #4aaaa5;
+    width:200px;
+    height:50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: medium;
+    display: inline-block;
+    line-height: 50px; /*to center text vertically*/    
+    
+}
+
+.navigation{
+    position:absolute;
+    right:0px;
+    background-color: white;
+    width:250px;
+    height:50px;
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../images/bg.png);
+}
+
+#button1,#button2,#button3{
+    /* background:none;
+    border:none;
+    margin:0;
+    padding:0; */
+    cursor: pointer;
+    text-decoration: none; /*to remove underline*/
+    line-height:50px;
+}
+
+#footer{
+
+    position: sticky;
+    margin: 0;
+    background-color: #666666;
+    background:linear-gradient(to top, #666666 80%,#4aaaa5 20%);
+    height:40px;
+    width:100%;
+    bottom:0;
+    padding:0;
+}
+
+#myphoto{
+    width:180px;
+    height:200px;
+    float:left;
+    width: 20%;
+    padding-right: 10px;
+}
+
+#img1,#img2,#img3,#img4,#img5{
+    /* float:left; */
+   
+    width:250px;
+    height:250px;
+    padding: 20px;;
+}
+
+#body{
+    border-style: solid;
+    border-color: #dddddd;
+    border-top: #cccccc;
+    border-width: thin;
+    width:960px;
+    /* position:relative; */
+    /* left:140px; */
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-top: 15px;
+    background-color: white;
+
+    margin-left: 145px;
+    overflow: hidden; /*this, because txt and img were overflowing outside the containing box, after floating them*/
+
+}
+
+#button1,#button3,#button2{
+    padding: 10px;  
+    color: grey;
+}
+
+#spaceLine{
+    height:10px;
+    width: 1px;
+    background-color: grey;
+    display:inline-block;
+}
+
+#text{
+    color:#777777;
+    float: left;
+    width: 70%;
+    padding-left: 50px;
+    line-height: 1.5;
+}
+h1{
+    color: #4aaaa5;
+}
+
+input{
+    width:600px;
+}
+
+#messageBox{
+    height:100px;
+    width: 600px;
+}
+
+#submit{
+    background-color:#4aaaa5 ;
+    color:white;
+    border-style: solid;
+    border-color:#4aaaa5 ;
+    width: 80px;
+    cursor: pointer;
+}
+
+#portfolio-img-container{
+    position: relative;
+    float: left;
+
+}
+
+.overlayText{
+    position: absolute;
+    background-color:#4aaaa5 ;
+    bottom: 40px;
+    left:20px;
+    color:white;
+    width: 210px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    border-style: solid;
+    border-color:#4aaaa5 ;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.contactMe{
+    color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
